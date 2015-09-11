@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>qtpass</id>
+    <title>QtPass</title>
+    <version>1.0.1</version>
+    <authors>Anne Jan Brouwer, realitygaps</authors>
+    <description>QtPass is a GUI for pass, the standard unix password manager. 
+    </description>
+    <projectUrl>https://github.com/IJHack/qtpass</projectUrl>
+    <packageSourceUrl>https://github.com/IJHack/qtpass/releases/download/v1.0.1/qtpass-1.0.1.exe</packageSourceUrl>
+    <!--<projectSourceUrl>https://github.com/IJHack/qtpass</projectSourceUrl>
+    <docsUrl>https://qtpass.org/</docsUrl>
+    <bugTrackerUrl>https://github.com/IJHack/qtpass/issues</bugTrackerUrl>-->
+    <tags>qtpass pass password</tags>
+    <licenseUrl>http://www.gnu.org/licenses/gpl-3.0.en.html</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <!--<dependencies>
+      <dependency id="" version="__VERSION__" />
+      <dependency id="" />
+    </dependencies>-->
+    <releaseNotes>
+    Correct focussing of filter input #89
+    Templates for password input
+    Show password title in in input window
+    Clear the text field(s) after X seconds #86
+    User list look and colour scheme #82
+    Auto push/pull options for git #83
+    Commit deletes to git #81
+    Git init of repositories #72
+    Yubikey Neo linux info added to FAQ #73
+
+</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

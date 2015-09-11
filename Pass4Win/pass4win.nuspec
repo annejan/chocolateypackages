@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>pass4win</id>
+    <title>Pass4Win</title>
+    <version>1.0.6</version>
+    <authors>Mike Bos</authors>
+    <summary>Pass4Win - Windows version of Pass (http://www.passwordstore.org/)</summary>
+    <description>Windows version of Pass (http://www.passwordstore.org/) in the sense that the store (password structure) is and should be exactly the same between the two programs. 
+    </description>
+    <projectUrl>https://github.com/mbos/Pass4Win</projectUrl>
+    <tags>pass4win passwordstore password</tags>
+    <licenseUrl>http://www.gnu.org/licenses/gpl-3.0.en.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <dependencies>
+      <dependency id="gpg4win" version="2.2.3" />
+    </dependencies>
+  </metadata>
+
+</package>
