@@ -3,7 +3,7 @@
 
 $packageName = 'qtpass'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url = 'https://github.com/IJHack/qtpass/releases/download/v1.0.1/qtpass-1.0.1.exe'
+$url = 'https://github.com/IJHack/qtpass/releases/download/v1.0.5/qtpass-1.0.5.exe'
 
 $packageArgs = @{
   packageName   = $packageName

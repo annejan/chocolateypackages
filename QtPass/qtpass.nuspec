@@ -5,12 +5,12 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>qtpass</id>
     <title>QtPass</title>
-    <version>1.0.1</version>
+    <version>1.0.5</version>
     <authors>Anne Jan Brouwer, realitygaps</authors>
     <description>QtPass is a GUI for pass, the standard unix password manager. 
     </description>
     <projectUrl>https://github.com/IJHack/qtpass</projectUrl>
-    <packageSourceUrl>https://github.com/IJHack/qtpass/releases/download/v1.0.1/qtpass-1.0.1.exe</packageSourceUrl>
+    <packageSourceUrl>https://github.com/IJHack/qtpass/releases/download/v1.0.5/qtpass-1.0.5.exe</packageSourceUrl>
     <!--<projectSourceUrl>https://github.com/IJHack/qtpass</projectSourceUrl>
     <docsUrl>https://qtpass.org/</docsUrl>
     <bugTrackerUrl>https://github.com/IJHack/qtpass/issues</bugTrackerUrl>-->
@@ -22,17 +22,16 @@
       <dependency id="" />
     </dependencies>-->
     <releaseNotes>
-    Correct focussing of filter input #89
-    Templates for password input
-    Show password title in in input window
-    Clear the text field(s) after X seconds #86
-    User list look and colour scheme #82
-    Auto push/pull options for git #83
-    Commit deletes to git #81
-    Git init of repositories #72
-    Yubikey Neo linux info added to FAQ #73
-
-</releaseNotes>
+    Auto hiding of content doesn't need clipboard 76dacca
+    Auto content hiding timer gets stopped when starting new task 1fa596d a8fa7b2
+    Remove template widgets when starting new task 4e7ac13
+    Using pwgen won't add a carriage return to password anymore #115
+    Output of git commands won't (always) show in red anymore #111
+    Tab order of templated fields is correctly set 2f9c6f7
+    SingleApplication communication problem workaround 3fc1dc7
+    Translation building system updated and further removal of duplicate and unneeded bits
+    Use example template format from passff as default 107dbff 5ec97c7
+    </releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
